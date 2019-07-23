@@ -1,6 +1,6 @@
 # Adventures on the sea
 
-A text game made with [ChoiceScript](https://github.com/dfabulich/choicescript), a language for making multichoice games from (Choice of Games](https://choiceofgames.com/).
+A text game made with [ChoiceScript](https://github.com/dfabulich/choicescript), a language for making multichoice games from [Choice of Games](https://choiceofgames.com/).
 
 
 ## Main features
@@ -11,7 +11,7 @@ Once finished, the game will have these features (the list is growing):
 - [x] Choose the color and style of your hair
 - Several worlds to explore
 - Many characters to meet and interact with
-- Few different fights
+- Different battles
 - ...
 
 Since this is my first CS game, it wont have the possibility to choose the gender of the main character. I'm writing it as male.

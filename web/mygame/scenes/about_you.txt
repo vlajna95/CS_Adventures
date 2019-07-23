@@ -23,7 +23,7 @@ OK ${captain__first_name}, and what about your last name?
   *set captain__last_name "Hope"
  #Something different...
   Type your last name, please.
-  *input_text captain_last_name
+  *input_text captain__last_name
   *set captain__last_name "$!{captain__last_name}"
 
 Fine. Now... which is the color of your eyes?

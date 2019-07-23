@@ -2,4 +2,5 @@
 
 *stat_chart
  text Name
+ text Age
  percent Health

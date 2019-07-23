@@ -1,0 +1,71 @@
+First of all, what's your name?
+
+*choice
+ #Arthur
+  *set captain__first_name "Arthur"
+ #David
+  *set captain__first_name "David"
+ #Lloyd
+  *set captain__first_name "Lloyd"
+ #Something different...
+  Type your name, please.
+  *input_text captain__first_name
+  *set captain__first_name "$!{captain__first_name}"
+
+OK ${captain__first_name}, and what about your last name?
+
+*choice
+ #Bluerose
+  *set captain__last_name "Bluerose"
+ #Williams
+  *set captain__last_name "Williams"
+ #Hope
+  *set captain__last_name "Hope"
+ #Something different...
+  Type your last name, please.
+  *input_text captain_last_name
+  *set captain__last_name "$!{captain__last_name}"
+
+Fine. Now... which is the color of your eyes?
+
+*choice
+ #Blue
+  *set captain__eye_color "blue"
+ #Black
+  *set captain__eye_color "black"
+ #Brown
+  *set captain__eye_color "brown"
+ #Hazel
+  *set captain__eye_color "hazel"
+ #Green
+  *set captain__eye_color "green"
+ #Something different...
+  Type the color of your beautiful eyes, please.
+  *input_text captain__eye_color
+
+Great! Talking about colors... which is the color of your hair?
+
+*choice
+ #Black
+  *set captain__hair_color "black"
+ #Brown
+  *set captain__hair_color "brown"
+ #Gold
+  *set captain__hair_color "gold"
+ #Red
+  *set captain__hair_color "red"
+ #Something different...
+  Type the color of your hair, please.
+  *input_text captain__hair_color
+
+Well, your hair color is ${captain__hair_color}, but what type of hair do you have?
+
+*choice
+ #Straight
+  *set captain__hair_style "straight"
+ #Wavy
+  *set captain__hair_style "wavy"
+ #Curly
+  *set captain__hair_style "curly"
+
+*finish OK, let's sail!

@@ -1,26 +1,42 @@
-*title Sea adventures
-*author Dani
+*title Adventures on the sea
+*author Danijela Popović
 
 *scene_list
  startup
- eyes
- hair
+ about_you
  ending
 
 *create implicit_control_flow True
-*create eye_color ""
-*create hair_color ""
-*create hair_type ""
+*create ship_name ""
+*create captain__first_name ""
+*create captain__last_name ""
+*create captain__age 15
+*create captain__health 100
+*create captain__eye_color ""
+*create captain__hair_color ""
+*create captain__hair_style ""
 
-Hello, welcome to the blue sea! 
 
-Here you will be part of some incredible adventures, so get prepaired and enjoy the game! 
+Hello, welcome to the adventure! 
 
-*page_break Let's sail!
+Here you will be part of some incredible adventures, so get ready and enjoy the game! 
 
-
-Hey, sailor! Your name is Arthur Dive and you are getting ready to sail on the most beautiful and incredible ship you've ever seen. 
+You are getting ready to sail on the most beautiful and incredible ship you've ever seen. 
 *line_break
-The ship is huge, it is more than a thousand feets long, and about a three hundred feets wide. It looks more like a siling town than like a ship. There's so many people on it. The crew is really large and there's an incredible number of cooks and other kitchen personnel.
+The ship is huge, it is more than a thousand feets long, and about a three hundred feets wide. It looks more like a sailing town than like a ship. There's so many people on it. The crew is really large and there's an incredible number of cooks and other kitchen personnel. 
+*line_break
+By the way, what's the name of the ship?
 
-*finish Tell us something about you
+*choice
+ #Sea Emperor
+  *set ship_name "Sea Emperor"
+ #Blue Lady
+  *set ship_name "Blue Lady"
+ #Something different...
+  *input_text ship_name
+
+*set ship_name "$!{ship_name}"
+
+Well, since we know the ship name, it's time to meet you. Let's go!
+
+*finish About you

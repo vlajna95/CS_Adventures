@@ -1,0 +1,5 @@
+*temp name "${captain__first_name} ${captain__last_name}"
+
+*stat_chart
+ text Name
+ percent Health

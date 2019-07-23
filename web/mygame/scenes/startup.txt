@@ -1,0 +1,26 @@
+*title Sea adventures
+*author Dani
+
+*scene_list
+ startup
+ eyes
+ hair
+ ending
+
+*create implicit_control_flow True
+*create eye_color ""
+*create hair_color ""
+*create hair_type ""
+
+Hello, welcome to the blue sea! 
+
+Here you will be part of some incredible adventures, so get prepaired and enjoy the game! 
+
+*page_break Let's sail!
+
+
+Hey, sailor! Your name is Arthur Dive and you are getting ready to sail on the most beautiful and incredible ship you've ever seen. 
+*line_break
+The ship is huge, it is more than a thousand feets long, and about a three hundred feets wide. It looks more like a siling town than like a ship. There's so many people on it. The crew is really large and there's an incredible number of cooks and other kitchen personnel.
+
+*finish Tell us something about you

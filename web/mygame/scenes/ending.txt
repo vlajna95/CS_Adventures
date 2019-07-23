@@ -1,0 +1,3 @@
+Hey, your ${eye_color} eyes and your ${hair_type} ${hair_color} hair are a great combination. Nice!
+
+*ending
